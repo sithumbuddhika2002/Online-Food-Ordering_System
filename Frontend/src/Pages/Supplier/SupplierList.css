@@ -1,0 +1,44 @@
+/* SupplierList.css */
+
+.supplier-page {
+  display: flex; /* Use flex to align sidebar and list horizontally */
+}
+
+.sidebar {
+  flex: 0 0 250px; /* Fixed width for the sidebar */
+  background-color: #343a40; /* Sidebar background */
+  padding: 20px;
+  color: white;
+}
+
+.supplier-list-container {
+  flex-grow: 1; /* The list container will take up the remaining space */
+  padding: 20px;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+  width: fit-content;
+}
+
+.button {
+  margin-bottom: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .supplier-page {
+    flex-direction: column; /* Stack sidebar and content on smaller screens */
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+}

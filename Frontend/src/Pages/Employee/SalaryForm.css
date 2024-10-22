@@ -1,0 +1,31 @@
+/* SalaryForm.css */
+.salary-form-container {
+    padding-top: 64px;
+    background-color: #f4f4f4;
+  }
+  
+  .salary-form-content {
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .salary-form-header {
+    margin-bottom: 10px;
+  }
+  
+  .salary-appbar {
+    background-color: #1c2331;
+    box-shadow: none;
+  }
+  
+  .salary-calculate-header {
+    margin-bottom: 10px;
+  }
+  
+  .salary-buttons {
+    margin-left: 8px;
+  }
+  

@@ -1,0 +1,88 @@
+/* EmployeeManage.css */
+
+.root {
+    display: flex;
+    height: 200vh;
+    overflow: hidden; /* Prevents overflow of the main container */
+  }
+  
+  .mainContent {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f1ebeb;
+    display: flex;
+    flex-direction: column;
+    overflow: auto; /* Allows scrolling within the main content */
+    width: 80%;
+  }
+  
+  .appBar {
+    background-color: #1c2331;
+    box-shadow: none;
+    width: 100%;
+  }
+  
+  .headerButton {
+    margin: 0 8px;
+  }
+  
+  .container {
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Space between sections */
+    width: 96%;
+  }
+  
+  .title {
+    margin-bottom: 16px;
+  }
+  
+  .dataGridContainer {
+    height: 400px; /* Fixed height to prevent overflow */
+    width: 100%;
+  }
+  .Button{
+    background-color: blue;
+    color: #ffffff;
+    padding:15px 32px;
+    font-size: 16px;
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .appBar {
+    background-color: #3f51b5;
+  }
+  
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .title {
+    color: rgb(255, 255, 255);
+  }
+  
+  .buttonGroup {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .content {
+    padding: 20px;
+    flex: 1; /* Allow this section to take the remaining space */
+    overflow-y: auto; /* Enable scrolling if the content overflows */
+  }
+  
+  .formTitle {
+    margin-bottom: 20px;
+  }
+  
+  .textField {
+    margin-bottom: 15px; /* Space between fields */
+  }
+  

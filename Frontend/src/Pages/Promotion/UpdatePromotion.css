@@ -1,0 +1,55 @@
+.update-promotion {
+  display: flex;
+  flex: 1; 
+  flex-direction: column; 
+  padding: 20px; 
+}
+
+.admin-container {
+  flex: 1; 
+  display: flex;
+  align-items: center; 
+}
+
+.promo-code-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Full width */
+  max-width: 600px; /* Optional max-width for better aesthetics */
+  margin: 20px auto; /* Center the form */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.btn-submit {
+  padding: 12px;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn-submit:hover {
+  background-color: #574bff;
+}
+
+.form-header {
+  font-weight: bold;
+  font-size: xx-large;
+  text-align: center;
+  margin-bottom: 20px; /* Added spacing below the header */
+}

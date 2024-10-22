@@ -1,0 +1,49 @@
+/* AddNewEmployeeForm.css */
+
+.container {
+    padding-top: 64px;
+    background-color: #f4f4f4;
+    position: relative;
+  }
+  
+  .appBar {
+    background-color: #1c2331;
+    box-shadow: none;
+  }
+  
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .title {
+    font-weight: bold;
+  }
+  
+  .content {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formTitle {
+    margin-bottom: 10px;
+  }
+  
+  .textField {
+    margin-bottom: 16px;
+  }
+  
+  .buttonGroup {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cancelButton {
+    margin-left: 8px;
+  }
+
+  

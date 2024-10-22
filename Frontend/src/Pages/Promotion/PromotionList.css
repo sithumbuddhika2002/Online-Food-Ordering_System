@@ -1,0 +1,120 @@
+.admin-container {
+  margin: 20px;
+  padding: 20px;
+  max-width: 800px;
+  background-color: #ffffff;
+  background-position: right center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-container .form-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.admin-container .promotion-code-table {
+  margin-top: 20px;
+}
+
+.admin-container table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.admin-container table th,
+.admin-container table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.admin-container table th {
+  background-color: #f4f4f4;
+  font-weight: 600;
+}
+
+.admin-container table td {
+  background-color: #fff;
+}
+
+.admin-container .update-btn,
+.admin-container .delete-btn {
+  padding: 8px 12px;
+  font-size: 14px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-container .btn-inser {
+  display: block;
+  margin: 20px auto;
+  padding: 12px;
+  background-color: black; 
+  width: 200px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background-color 0.3s ease; 
+}
+
+.admin-container .btn-update {
+  display: block;
+  margin: 2px auto;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 10%;
+}
+
+.admin-container .delete-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.admin-container .pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.admin-container .pagination button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 8px 12px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.admin-container .pagination span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.admin-container .report-btn {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #FFD700;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-container .report-btn:hover {
+  background-color: #FFD700;
+}
